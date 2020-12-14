@@ -2,10 +2,10 @@
 $name = (isset($_POST['name'])) ? $_POST['name'] : '';
 $phone = (isset($_POST['phone'])) ? $_POST['phone'] : '';
 $address = (isset($_POST['address'])) ? $_POST['address'] : '';
-$click_id = (isset($_POST['click_id']) && trim($_POST['click_id']) != '') ? $_POST['click_id'] : '5fd79764890e12003bf56da0';
+$click_id = (isset($_POST['click_id']) && trim($_POST['click_id']) != '') ? $_POST['click_id'] : '5fd79f3b99a300004266027b';
 $fb_pixel_id = (isset($_GET['fb_pixel_id'])) ? $_GET['fb_pixel_id'] : '';
 
-$domainDefault = 'http://zxc.world'; // for Pubs download
+$domainDefault = 'https://beucup-pg.fastbuy.biz'; // for Pubs download
 
 if ($name == '' || $phone == '') {
     errors('Bạn vui lòng nhập đầy đủ thông tin!');
